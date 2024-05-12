@@ -33,7 +33,7 @@ async def on_ready():
             'random'
         ) +
         "\n"
-        "\tBot repository:  https://github.com/Myortv/goloniel-discord-bot\n"
+        "\tBot repository:  https://github.com/Myortv/goloniel-lamb-bot\n"
         "\tDiscord Server:  https://discord.gg/yvfK9cq8YD\n"
         "\tRun this bot with:  https://github.com/Myortv/goloniel-compose\n"
     )
