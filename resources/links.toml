@@ -1,0 +1,8 @@
+[Links]
+auth_host = "backend-auth:8000"
+social_host = "backend-social:8000"
+
+# create_user = 'http:///auth/docs#/User/create_user_auth_api_v1_user__post'
+# discord_auth_link = 'http:///auth/docs#/Integrations/get_redirect_link_auth_api_v1_integrations_discord_auth_link_get'
+
+

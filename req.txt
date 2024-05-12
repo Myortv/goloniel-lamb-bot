@@ -1,0 +1,9 @@
+py-cord
+aiohttp
+pydantic
+pydantic-settings
+art
+asyncache
+toml
+pyjwt
+cryptography

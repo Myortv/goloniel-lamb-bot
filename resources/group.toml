@@ -1,0 +1,102 @@
+[Descriptions]
+group_name = "group"
+group_desc = "Group"
+join_request_name = 'join-request'
+join_request_desc = 'join request'
+group_manage_name = 'manage'
+group_manage_desc = 'manage'
+group_admin_name = 'admin'
+group_admin_desc = 'admin'
+
+
+list = 'List groups'
+show = 'Show group. (Render card of group with addition actions on it)'
+my_groups = 'My groups'
+
+join = 'Create new join request if not exsists or output exsisting one'
+list_requests = 'List all sended join requests'
+leave  = 'leave group'
+
+show_join_request = "Show join request. (Render card of join request with addition actions on it)"
+list_join_requests = "List join requests"
+approve_join_request = "Accept (or reject) join request"
+kick_member = 'Kick member.'
+set_full = 'Set group full. It will indicate users that group no longer accepts join requests.'
+
+
+
+
+# create = 'c - [C]reate master (become master)'
+# # group = 'g - [G]roup pages'
+# rate = 'r - [R]ate  master'
+# approve = 'a - [A]pprove  master'
+# approve_request = "ar - [A]pprove [R]equest"
+
+# master_desc = 'Master related commands'
+# master_name = 'master'
+
+[Commands]
+list = "list"
+show = "show"
+my_groups = "my"
+
+join = "join"
+list_requests = "list-requests"
+leave = "leave"
+
+show_join_request = "show-join-request"
+list_join_requests = "list-join-requests"
+approve_join_request = "approve-join-request"
+kick_member = "kick"
+set_full = "set-full"
+
+
+[Options]
+group_title = 'Title of group to show'
+show_join_request = "???"
+
+
+[PageText]
+
+# masters_list = 'Master list:\n\n$page'
+placeholder_image = 'https://i.stack.imgur.com/Fzh0w.png'
+
+join_request_title = 'Join Request @ {group_title}'
+join_request_deleted = "Join request deleted successfully"
+
+empty = 'No group founded'
+no_description = "This group don't have any description"
+no_member = 'No member binded to this group'
+no_master = 'No master binded to this group'
+no_discord_id = "Not fetched. Saved id: **$id**"
+
+# f_rating = 'Rating'
+f_members = 'Members'
+f_master = 'Master'
+f_group_title = 'Group Title'
+f_is_full = 'Is full'
+f_join_request_state = 'State'
+f_join_request_is_accepted = 'Accepted'
+# f_is_approved = 'Is Approved'
+
+btn_join_request = 'Join Group'
+btn_leave_group = 'Leave Group'
+btn_leave_message = 'Leave Message'
+btn_list_requests = 'List Requests'
+btn_delete_group = 'Delete Group'
+btn_set_full = 'Set Full'
+btn_join_request_delete = 'Delete'
+btn_edit_group = 'Edit'
+
+[ErrorTitle]
+no_group = "No Group"
+no_join_request = 'No Join Request'
+
+[ErrorDescription]
+no_group = "No group founded"
+no_join_request = 'No join request founded'
+
+
+[Dialog]
+test = "test"
+

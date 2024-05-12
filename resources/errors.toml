@@ -1,0 +1,10 @@
+[ErrorTitles]
+default = "Common Error"
+view_bad_user = "Bad User"
+no_user = "No User"
+
+
+[ErrorDescriptions]
+default = "No specific description provided"
+view_bad_user = "You are not author of interaction. You can't interact with"
+no_user = "No user account founded in system"

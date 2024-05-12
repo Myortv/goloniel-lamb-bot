@@ -1,0 +1,115 @@
+[Help]
+header = """
+Master is an game master, that control group of players.
+They create as day-to-day interaction as long storylines.
+This commands is related to masters. Create, list, approve, rate and much more!
+"""
+
+[Descriptions]
+list = 'l - [L]ist masters'
+show = 's - [S]how master'
+me = 'm - [M]y master. Show my master profile with private content.'
+# me_edit = 'me - [M] [E]dit. Edit my master profile.'
+# group = 'g - [G]roup pages'
+rate = 'r - [R]ate  master. Rating should be in boudaries of [0-5]'
+approve = 'a - [A]pprove  master'
+approve_request = "ar - [A]pprove [R]equest"
+
+master_desc = 'Master related commands'
+master_name = 'master'
+
+[Commands]
+list = 'l'
+show = 's'
+me = 'm'
+# me_edit = 'me'
+# group = 'g'
+rate = 'r'
+approve = 'a'
+approve_request = 'ar'
+
+[PageText]
+
+# masters_list = 'Master list:\n\n$page'
+placeholder_image = 'https://i.stack.imgur.com/Fzh0w.png'
+
+approve_request_title = 'Approve request'
+
+you_are_not_master_yet = """
+You are not master yet. You can become one. Click "create" button to become master.
+At first you will be "un-approved" master.
+Collect approves from other people and create "approve request".
+That way admins will check and approve you as master is they see like it.
+Approved master always pinned to top in searches and have access to some 'hidden' 'in-work' content.
+"""
+
+approval = "Approval"
+
+rating_deleted = "Rating Deleted!"
+approval_deleted = "Approval Deleted"
+
+# warnings
+empty = 'No master founded'
+no_description = "This master don't have any description"
+no_user = 'No user binded to this master'
+no_groups = "Master don't have any running groups"
+no_approval_request_reason = "Approve request is yet to be processed"
+no_rating = "No setted ratign found"
+rating_out_of_bounds = "Rating is out of bounds. It should be more then 0 and less or equal then 5."
+
+# errors
+e_user_not_found = 'User not found in system. Do you have account?'
+e_mentioned_user_not_found = 'User not found in system.'
+
+# fields
+f_rating = 'Rating'
+f_user = 'User'
+f_is_approved = 'Is Approved'
+f_groups = "Groups"
+f_approvals_amount = 'Approvals amount'
+f_approve_request = 'Approve request '
+f_approval_request_state = "State"
+# templates
+t_group_oneline = """
+> $title
+> Is full: $is_full_proxy
+
+
+"""
+btn_create_approval_request = 'Send Approval Request'
+btn_edit_master = 'Edit'
+btn_create_master = 'Create' 
+btn_delete_approve = "Delete"
+btn_delete_rating = "Delete"
+btn_set_master_approval = "Set Approval"
+btn_set_master_rating = "Set Rating"
+
+[Dialog]
+title_create = 'Input master info to became Master'
+title_update = 'Update you Master info'
+title_rating = 'Master Rating'
+
+# fields
+f_title = 'Master title'
+f_description = 'Master description'
+f_cover_picture = 'Master cover_picture'
+f_rating = 'Rating'
+
+# placeholders
+placeholder_title = 'Some flashy title'
+placeholder_description = 'Some flashy description'
+placeholder_cover_picture = 'Url to picture'
+placeholder_rating = 'Number 1 - 5'
+
+
+[ErrorTitle]
+no_master = "No Master"
+no_rating = "No Rating"
+rating_out_of_bounds = "Rating Out Of Bounds"
+approve_already_exsists = "Already Exsists"
+
+[ErrorDescription]
+no_master = "No master founded"
+no_rating = "No rating founded"
+rating_out_of_bounds = "Rating should be more or equal to 1 and less or equeal to 5"
+approve_already_exsists = "Approve already exsists"
