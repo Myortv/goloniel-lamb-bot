@@ -102,7 +102,7 @@ async def show_command(
         actor_master = await master_api.get_by_user_id(
             actor_user.id,
         )
-    if actor_master.id == master.id:
+    if actor_master and actor_master.id == master.id:
         view = views.MasterView(user=actor_user, master=master)
     else:
         view = views.MasterViewForUser(user=actor_user, master=master)
