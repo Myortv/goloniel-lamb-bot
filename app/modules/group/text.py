@@ -94,6 +94,7 @@ class PageText(FromTomlFile):
     btn_delete_group: str
     btn_set_full: str
     btn_join_request_delete: str
+    btn_edit_group: str
 #     btn_create_approval_request: str
 #     btn_edit_master: str
 #     btn_create_master: str
